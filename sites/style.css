@@ -1,0 +1,20 @@
+.custom-navbar {
+    background: linear-gradient(90deg, #000000, #0a1f2e, #080717);
+}
+
+body {
+    background-color: #dbeeff;
+    color: #333;
+}
+.card-img {
+    filter: brightness(0.6) saturate(1.2) sepia(0.3) hue-rotate(200deg);
+
+}
+
+.custom-button{
+    background: linear-gradient(135deg, #000000, #05031d, #0c2b42);
+}
+.custom-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}

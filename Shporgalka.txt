@@ -1,0 +1,57 @@
+<!-- Основные цвета текста -->
+<p class="text-primary">Синий - основной цвет</p>
+<p class="text-secondary">Серый - второстепенный</p>
+<p class="text-success">Зеленый - успех</p>
+<p class="text-danger">Красный - опасность</p>
+<p class="text-warning bg-dark">Желтый - предупреждение</p>
+<p class="text-info">Голубой - информация</p>
+<p class="text-light bg-dark">Белый - светлый</p>
+<p class="text-dark">Черный - темный</p>
+<p class="text-muted">Серый - приглушенный</p>
+<p class="text-white bg-dark">Белый</p>
+<p class="text-black">Черный</p>
+
+<!-- Дополнительные оттенки -->
+<p class="text-primary-emphasis">Темно-синий</p>
+<p class="text-secondary-emphasis">Темно-серый</p>
+<p class="text-success-emphasis">Темно-зеленый</p>
+<p class="text-danger-emphasis">Темно-красный</p>
+<p class="text-warning-emphasis bg-dark">Темно-желтый</p>
+<p class="text-info-emphasis">Темно-голубой</p>
+<p class="text-light-emphasis bg-dark">Светло-серый</p>
+<p class="text-dark-emphasis">Черный с оттенком</p>
+
+<!-- Фоновые цвета -->
+<div class="bg-primary text-white">Синий фон</div>
+<div class="bg-secondary text-white">Серый фон</div>
+<div class="bg-success text-white">Зеленый фон</div>
+<div class="bg-danger text-white">Красный фон</div>
+<div class="bg-warning">Желтый фон</div>
+<div class="bg-info">Голубой фон</div>
+<div class="bg-light">Светлый фон</div>
+<div class="bg-dark text-white">Темный фон</div>
+<div class="bg-white">Белый фон</div>
+<div class="bg-black text-white">Черный фон</div>
+<div class="bg-transparent">Прозрачный фон</div>
+
+<!-- Оттенки фона -->
+<div class="bg-primary-subtle">Светло-синий фон</div>
+<div class="bg-secondary-subtle">Светло-серый фон</div>
+<div class="bg-success-subtle">Светло-зеленый фон</div>
+<div class="bg-danger-subtle">Светло-красный фон</div>
+<div class="bg-warning-subtle">Светло-желтый фон</div>
+<div class="bg-info-subtle">Светло-голубой фон</div>
+
+<button type="button" class="btn btn-primary">Синяя</button>
+<button type="button" class="btn btn-secondary">Серая</button>
+<button type="button" class="btn btn-success">Зеленая</button>
+<button type="button" class="btn btn-danger">Красная</button>
+<button type="button" class="btn btn-warning">Желтая</button>
+<button type="button" class="btn btn-info">Голубая</button>
+<button type="button" class="btn btn-light">Светлая</button>
+<button type="button" class="btn btn-dark">Темная</button>
+<button type="button" class="btn btn-link">Ссылка</button>
+
+<!-- Контурные кнопки -->
+<button type="button" class="btn btn-outline-primary">Синяя контурная</button>
+<button type="button" class="btn btn-outline-secondary">Серая контурная</button>
