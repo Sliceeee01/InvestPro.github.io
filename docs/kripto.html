@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новостная страница</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!--Начало шапки сайта-->
+<nav class="navbar py-2 custom-navbar">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-between w-100 flex-wrap">
+            <!-- Логотип -->
+            <a class="d-flex align-items-center text-white text-decoration-none" href="index.html">
+                <img src="ikon.png" 
+                width="60" height="60" 
+                class="rounded-circle me-2" 
+                alt="Лого">
+                <span class="fs-2 fw-bold">InvestPro</span>
+            </a>
+            <div class="overflow-auto pb-2">
+                <ul class="nav flex-nowrap">
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-3" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-3" href="yslygi.html">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-3 active" href="portfel.html">Портфель</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-3" href="novosti.html">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-3" href="kontackt.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!--Новости-->
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1 class="display-4 fw-bold text-center mb-3">Новости InvestPro</h1>
+            <p class="text-center text-muted fs-5">Будьте в курсе последних событий в мире инвестиций</p>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="d-flex justify-content-center flex-wrap gap-1">
+                <a href="novosti.html" class="btn btn-dark custom-button" data-filter="all">Все новости</a>
+                <a href="invest.html" class="btn btn-dark custom-button " data-filter="investments">Инвестиции</a>
+                <a href="akcii.html" class="btn btn-dark custom-button" data-filter="stocks">Акции</a>
+                <a href="kripto.html" class="btn btn-dark custom-button" data-filter="crypto">Криптовалюта</a>
+                <a href="anal.html" class="btn btn-dark custom-button" data-filter="analytics">Аналитика</a>
+            </div>
+        </div>
+    </div>
+    <div class="row g-4">
+
+        <!-- Новость 1 -->
+        <div class="col-lg-4 col-md-6 ">
+            <div class="card news-card h-100 bg-dark">
+                <div class="position-relative overflow-hidden">
+                    <img src="kripta.jpg" 
+                         class="card-img-top news-image" alt="Криптовалюта">
+                    <span class="badge bg-warning text-dark">Криптовалюта</span>
+                </div>
+                <div class="card-body">
+                    <div class="news-date mb-2 text-white" >
+                        <i class="bi bi-calendar3"></i>
+                        <span>14 марта 2026</span>
+                    </div>
+                    <h5 class="card-title fw-bold text-white">Члены совета директоров американской биткоин-компании, поддерживаемой Трампом, скупают акции после публикации отчета о доходах</h5>
+                    <p class="card-text text-white">За последние два дня член совета директоров Ричард Буш, партнер юридической фирмы King & Ballow, приобрел около 330 000 акций.</p>
+                    <div class="news-meta text-white">
+                        <span class="text-white"><i class="bi bi-person-circle me-1 text-white"></i> Иван Петров</span>
+                        <a href="#" class="btn btn-dark custom-button">Читать <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Новость 5 -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card news-card h-100 bg-dark">
+                <div class="position-relative overflow-hidden">
+                    <img src="zolotonovosti.jpeg" 
+                         class="card-img-top news-image" alt="Золото">
+                    <span class="badge bg-warning category-badge text-dark">Товары</span>
+                </div>
+                <div class="card-body">
+                    <div class="news-date mb-2 bg text-white">
+                        <i class="bi bi-calendar3"></i>
+                        <span>10 марта 2026</span>
+                    </div>
+                    <h5 class="card-title fw-bold text-white">В России появился первый товарный ценовой индикатор</h5>
+                    <p class="card-text text-white">ЦБ включил в реестр первый товарный индикатор в России. Им стал индекс Мосбиржи аффинированного золота. Закон, регламентирующий замену иностранных индикаторов и создание собственных, вступил в силу осенью 2025 года</p>
+                    <div class="news-meta">
+                           <div style="margin-top: 230px;"></div>
+                        <span class="text-white"><i class="bi bi-person-circle me-1"></i> Дмитрий Соколов</span>
+                        <a href="#" class="btn btn-dark custom-button">Читать <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <button class="btn btn-dark custom-button">
+                <i class="bi bi-arrow-repeat me-2"></i>Загрузить еще новости
+            </button>
+        </div>
+    </div>
+    <div style="margin-top: 200px;"></div>
+
+    <!-- Подписка на новости -->
+    <div class="row mt-5">
+        <div class="col-lg-8 mx-auto">
+            <div class="card bg-light border-0 p-4 p-md-5">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h4 class="fw-bold mb-2">Подпишитесь на рассылку</h4>
+                        <p class="text-muted mb-3 mb-md-0">Получайте самые важные новости первыми</p>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Ваш email">
+                            <button class="btn btn-dark custom-button">
+                                <i class="bi bi-send"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div style="margin-top: 500px;"></div>
+
+
+ <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">@Invest-Pro company OOO-ИнвестПро</p>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
