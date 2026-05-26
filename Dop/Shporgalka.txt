@@ -55,3 +55,251 @@
 <!-- Контурные кнопки -->
 <button type="button" class="btn btn-outline-primary">Синяя контурная</button>
 <button type="button" class="btn btn-outline-secondary">Серая контурная</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Простая карточка -->
+<div class="card" style="width: 300px;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Заголовок</h5>
+        <p class="card-text">Текст карточки</p>
+        <a href="#" class="btn btn-primary">Кнопка</a>
+    </div>
+</div>
+
+<!-- Карточка темная -->
+<div class="card bg-dark text-white">
+    <div class="card-body">
+        <h5 class="card-title">Темная карточка</h5>
+        <p class="card-text">Текст</p>
+    </div>
+</div>
+
+<!-- Карточка с рамкой -->
+<div class="card border-primary">
+    <div class="card-body">
+        <h5 class="card-title">С рамкой</h5>
+        <p class="card-text">Текст</p>
+    </div>
+</div>
+
+<!-- Карточка с ссылками -->
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Заголовок</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Подзаголовок</h6>
+        <p class="card-text">Текст</p>
+        <a href="#" class="card-link">Ссылка 1</a>
+        <a href="#" class="card-link">Ссылка 2</a>
+    </div>
+</div>
+
+<!-- Карточка с картинкой сверху -->
+<div class="card" style="width: 18rem;">
+    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-text">Текст под картинкой</p>
+    </div>
+</div>
+
+<!-- Карточка с шапкой и подвалом -->
+<div class="card">
+    <div class="card-header">
+        Шапка
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Заголовок</h5>
+        <p class="card-text">Текст</p>
+    </div>
+    <div class="card-footer text-muted">
+        Подвал
+    </div>
+</div>
+
+<!-- Горизонтальная карточка (картинка слева) -->
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Заголовок</h5>
+                <p class="card-text">Текст</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Группа карточек (3 в ряд) -->
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Карточка 1</h5>
+                <p class="card-text">Текст</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Карточка 2</h5>
+                <p class="card-text">Текст</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Карточка 3</h5>
+                <p class="card-text">Текст</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Основные иконки -->
+<i class="bi bi-wallet2"></i>          <!-- Кошелек -->
+<i class="bi bi-cash-stack"></i>        <!-- Деньги -->
+<i class="bi bi-credit-card"></i>       <!-- Карта -->
+<i class="bi bi-graph-up"></i>          <!-- График роста -->
+<i class="bi bi-graph-down"></i>        <!-- График падения -->
+<i class="bi bi-briefcase"></i>         <!-- Портфель -->
+<i class="bi bi-person"></i>            <!-- Пользователь -->
+<i class="bi bi-people"></i>            <!-- Люди -->
+<i class="bi bi-star-fill"></i>         <!-- Звезда заполненая -->
+<i class="bi bi-star"></i>              <!-- Звезда пустая -->
+<i class="bi bi-heart-fill"></i>        <!-- Сердце -->
+<i class="bi bi-heart"></i>             <!-- Сердце пустое -->
+
+<!-- Действия -->
+<i class="bi bi-check-circle"></i>      <!-- Галочка -->
+<i class="bi bi-x-circle"></i>          <!-- Крестик -->
+<i class="bi bi-trash"></i>             <!-- Корзина -->
+<i class="bi bi-pencil"></i>            <!-- Карандаш (редакт) -->
+<i class="bi bi-plus-circle"></i>       <!-- Плюс -->
+<i class="bi bi-dash-circle"></i>       <!-- Минус -->
+
+<!-- Навигация -->
+<i class="bi bi-house-door"></i>        <!-- Домой -->
+<i class="bi bi-search"></i>            <!-- Лупа -->
+<i class="bi bi-bell"></i>              <!-- Уведомление -->
+<i class="bi bi-envelope"></i>          <!-- Почта -->
+<i class="bi bi-gear"></i>              <!-- Шестеренка -->
+<i class="bi bi-arrow-left"></i>        <!-- Стрелка влево -->
+<i class="bi bi-arrow-right"></i>       <!-- Стрелка вправо -->
+<i class="bi bi-arrow-up"></i>          <!-- Стрелка вверх -->
+<i class="bi bi-arrow-down"></i>        <!-- Стрелка вниз -->
+
+<!-- Технологии -->
+<i class="bi bi-phone"></i>             <!-- Телефон -->
+<i class="bi bi-laptop"></i>            <!-- Ноутбук -->
+<i class="bi bi-tablet"></i>            <!-- Планшет -->
+
+<!-- Безопасность -->
+<i class="bi bi-shield-check"></i>      <!-- Щит с галочкой -->
+<i class="bi bi-shield-lock"></i>       <!-- Замок -->
+<i class="bi bi-lock"></i>              <!-- Замок -->
+<i class="bi bi-unlock"></i>            <!-- Открытый замок -->
+
+<!-- Размеры иконок -->
+<i class="bi bi-star fs-1"></i>         <!-- Очень большая -->
+<i class="bi bi-star fs-2"></i>         <!-- Большая -->
+<i class="bi bi-star fs-3"></i>         <!-- Средняя -->
+<i class="bi bi-star fs-4"></i>         <!-- Маленькая -->
+<i class="bi bi-star fs-5"></i>         <!-- Очень маленькая -->
+
+<!-- Цветные иконки -->
+<i class="bi bi-check-circle text-success"></i>    <!-- Зеленая -->
+<i class="bi bi-x-circle text-danger"></i>         <!-- Красная -->
+<i class="bi bi-star text-warning"></i>            <!-- Желтая -->
+<i class="bi bi-info-circle text-primary"></i>     <!-- Синяя -->
+<i class="bi bi-check text-white bg-success p-1 rounded-circle"></i> <!-- С фоном -->
+
+
+
+<!-- Обычные стикеры -->
+<span class="badge bg-primary">Primary</span>
+<span class="badge bg-secondary">Secondary</span>
+<span class="badge bg-success">Success</span>
+<span class="badge bg-danger">Danger</span>
+<span class="badge bg-warning">Warning</span>
+<span class="badge bg-info">Info</span>
+<span class="badge bg-dark">Dark</span>
+<span class="badge bg-light text-dark">Light</span>
+
+<!-- Стикеры с обводкой -->
+<span class="badge bg-primary bg-opacity-10 text-primary border border-primary">Outline</span>
+
+<!-- Стикеры на кнопках -->
+<button class="btn btn-primary">
+    Уведомления <span class="badge bg-danger">99+</span>
+</button>
+
+<!-- Круглые стикеры (пилюли) -->
+<span class="badge rounded-pill bg-primary">99+</span>
+<span class="badge rounded-pill bg-success">Новое</span>
+<span class="badge rounded-pill bg-danger">Акция</span>
+
+<!-- Внутри карточек -->
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Инвестиции 
+            <span class="badge bg-success">NEW</span>
+        </h5>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="alert alert-primary" role="alert">
+    Простое уведомление
+</div>
+
+<div class="alert alert-success" role="alert">
+    ✅ Успешно выполнено!
+</div>
+
+<div class="alert alert-danger" role="alert">
+    ❌ Ошибка! Что-то пошло не так.
+</div>
+
+<div class="alert alert-warning" role="alert">
+    ⚠️ Внимание! Проверьте данные.
+</div>
+
+<div class="alert alert-info" role="alert">
+    ℹ️ Информация для вас.
+</div>
+
+<!-- С кнопкой закрытия -->
+<div class="alert alert-success alert-dismissible fade show">
+    Успешно!
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+</div>
+
+
+
+
+
+
+
