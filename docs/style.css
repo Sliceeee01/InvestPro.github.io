@@ -18,3 +18,48 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
+
+
+
+* {
+    transition: 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.btn {
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+
+
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .balance {
+        font-size: 1.8rem;
+    }
+    
+    .card:hover {
+        transform: none; 
+    }
+    
+    .btn:hover {
+        transform: none;
+    }
+}
+
