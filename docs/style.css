@@ -50,16 +50,22 @@ body {
 }
 
 @media (max-width: 768px) {
-    .balance {
-        font-size: 1.8rem;
+    .custom-navbar .container-fluid {
+        flex-direction: column;
+        text-align: center;
     }
     
-    .card:hover {
-        transform: none; 
+    .nav-link {
+        font-size: 14px;
+        padding: 5px 10px !important;
     }
     
-    .btn:hover {
-        transform: none;
+    .custom-navbar span {
+        font-size: 20px;
+    }
+    
+    .custom-navbar img {
+        width: 40px;
+        height: 40px;
     }
 }
-
